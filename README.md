@@ -2,6 +2,7 @@
 
 Una semplice applicazione **Pokedex** sviluppata in Python per consultare informazioni sui Pokémon.  
 Il progetto utilizza l’API pubblica di [PokeAPI](https://pokeapi.co/) per recuperare i dati in tempo reale.
+N.B. Scarica estensione VSCode "Live Server"
 
 ---
 
@@ -31,3 +32,7 @@ Clona il progetto e installa le dipendenze:
 git clone https://github.com/Robert0Falconi/pokedex.git
 cd pokedex
 pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+Poi vai su /static/index.html e lancia l'estensione Live Server per avviare il frontend
